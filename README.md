@@ -6,7 +6,7 @@
 
 :sh to run a simple shell command. I used this to run `:sh dotnet run` without quitting and then going back in every single time
 
-<i> - insert after selection
+`<i>`- insert after selection
 
 <I> - insert at end of the line
 
