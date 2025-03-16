@@ -6,13 +6,17 @@
 
 `:sh` to run a simple shell command. I used this to run `:sh dotnet run` without quitting and then going back in every single time
 
-`<i>`- insert after selection
+`<i>`- insert before selection
 
-`<I>` - insert at end of the line
+`<I>` - insert at the start of the line
 
-`<a>` - insert before selection
+`<a>` - insert after selection
 
 `<A>` - insert at the end of the line
+
+`<e>` - go to end of word
+
+`<E>` - go to end of word, and include chars
 
 `<;>` - to remove current active highlighting
 
@@ -38,7 +42,7 @@
 
 `<mi>` + `[char]` - select everything within char
 
-`<c>` -  remove and go into edit mode
+`<c>` - remove and go into edit mode
 
 `<mr>` + `[char]` - select char and replace
 
@@ -49,32 +53,34 @@
 `</>` - to search
  - `<n>` to go to next instance of searched keyword
 
-<x> → highlight current line. You can hit it again to grow selection down.
+`<x>` - highlight current line. You can hit it again to grow selection down.
 
-<space + r> → rename a symbol
+`<SPACE + r>` - rename a symbol
 
-<gd> → go to definition
+`<gd>` → go to definition
 
-<gr> → show references with picker
+`<gr>` → show references with picker
 
 If you start going down breadcrumb:
 
-→ <C-o> to go up a level
+- <C-o> to go up a level
 
-→ <C-i> to go down a level
+- <C-i> to go down a level
 
-<space + g> → show you all files that you’ve changed in git
+`<space + g>` - show you all files that you’ve changed in git
 
-<gw> → go to 2 char label, aka mind control
+`<gw>` - go to 2 char label, aka mind control
 
-<]-f> → go to next function
+`<]-f>` - go to next function
 
-<alt + o> → grow selection
+`<alt + o>` - grow selection
 
-<alt + i> → shrink selection
+`<alt + i>` - shrink selection
 
-<”+> → access to system clipboard. <p> to paste of course
+`<">` - Access register menu
 
-<shift + c> → grow multi-cursor
+`<”+>` - access system clipboard → `<p>` to then paste 
 
-→ <,> to remove extra cursors 
+`<shift + c>` - grow multi-cursor
+
+- `<,>` to remove extra cursors 
