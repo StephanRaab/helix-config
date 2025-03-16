@@ -2,7 +2,7 @@
 
 ## key bindings to remember
 
-<%> → select the entire page
+<%> - select the entire page
 
 :sh to run a simple shell command. I used this to run `:sh dotnet run` without quitting and then going back in every single time
 
