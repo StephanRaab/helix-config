@@ -1,5 +1,23 @@
 # helix-config
 
+## Minor modes
+
+`<v>` - select mode
+
+`<g>` - goto mode
+
+`<m>` - match mode
+
+`<:>` - command mode
+
+`<z>` - view mode
+
+`<Z>` - sticky view mode
+
+`<C-w>` - window mode
+
+`<SPACE>` - space mode
+
 ## key bindings to remember
 
 `<%>` - select the entire page
