@@ -18,7 +18,7 @@
 
 `<SPACE>` - space mode
 
-## key bindings to remember
+## Key bindings to remember
 
 `<%>` - select the entire page
 
@@ -33,6 +33,8 @@
 `<A>` - insert at the end of the line
 
 `<e>` - go to end of word
+
+`<r>` - replace current selection
 
 `<E>` - go to end of word, and include chars
 
@@ -103,7 +105,7 @@ If you start going down breadcrumb:
 
 - `<,>` to remove extra cursors 
 
-## find and replace
+## Find and replace
 
 1. `<%>` to select the entire document
 2. `</>` to go into search mode
