@@ -30,23 +30,24 @@
 
  -  `<C-p>` - scroll up
 
-  `<C-v>` - open the file up in a vertical split
+ -  `<C-v>` - open the file up in a vertical split
 
-  `<C-wq>` -  close split buffer
+ -  `<C-wq>` -  close split buffer
 
-<C-c> → comment out a line
+`<C-c>` - comment out a line
 
-<mi> + [char] → select everything within char
+`<mi>` + `[char]` - select everything within char
 
-→ <c> to remove and go into edit mode
+`<c>` -  remove and go into edit mode
 
-<mr> + [char] → select char and replace
+`<mr>` + `[char]` - select char and replace
 
-→ mr” → ‘ → this would select the double quotes and replace them with single quote
+ - `<mr">` and then `'` → this would select the double quotes and replace them with single quote
 
-<ms> + [char] → surround selection in char
+`<ms>` + `[char]` - surround selection in char
 
-</> → to search. <n> to go to next instance of searched keyword
+`</>` - to search
+ - `<n>` to go to next instance of searched keyword
 
 <x> → highlight current line. You can hit it again to grow selection down.
 
