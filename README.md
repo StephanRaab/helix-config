@@ -26,9 +26,9 @@
 
 `<space>` + `<f>` - fuzzy finder file picker
 
-  `<C-n>` - scroll down
+ -  `<C-n>` - scroll down
 
-  `<C-p>` - scroll up
+ -  `<C-p>` - scroll up
 
   `<C-v>` - open the file up in a vertical split
 
