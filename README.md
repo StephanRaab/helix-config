@@ -2,7 +2,7 @@
 
 ## key bindings to remember
 
-`<%>`- select the entire page
+`<%>` - select the entire page
 
 `:sh` to run a simple shell command. I used this to run `:sh dotnet run` without quitting and then going back in every single time
 
@@ -14,25 +14,25 @@
 
 `<A>` - insert at the end of the line
 
-<;> → to remove current active highlighting
+`<;>` - to remove current active highlighting
 
-<g> → opens up a ton of movement options
+`<g>` - opens up a ton of movement options
 
-<g> + <l> → goes to the end of the line
+`<g>` motion  + `<l>` - goes to the end of the line
 
-<g> + <h> → goes to the beginning of the line
+`<gh>` -  goes to the beginning of the line
 
-<SPACE> + <?> → opens up the command palette
+`<SPACE>` + `<?>` - opens up the command palette
 
-<space> + <f> → fuzzy finder file picker
+`<space>` + `<f>` - fuzzy finder file picker
 
-→ <C-n> to scroll down
+  `<C-n>` - scroll down
 
-→ <C-p> to scroll up
+  `<C-p>` - scroll up
 
-→ <C-v> to open the file up in a vertical split
+  `<C-v>` - open the file up in a vertical split
 
-→ <C-wq> close split buffer
+  `<C-wq>` -  close split buffer
 
 <C-c> → comment out a line
 
