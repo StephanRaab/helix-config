@@ -2,17 +2,17 @@
 
 ## key bindings to remember
 
-<%> - select the entire page
+`<%>`- select the entire page
 
-:sh to run a simple shell command. I used this to run `:sh dotnet run` without quitting and then going back in every single time
+`:sh` to run a simple shell command. I used this to run `:sh dotnet run` without quitting and then going back in every single time
 
 `<i>`- insert after selection
 
-<I> - insert at end of the line
+`<I>` - insert at end of the line
 
-<a> - insert before selection
+`<a>` - insert before selection
 
-<A> - insert at the end of the line
+`<A>` - insert at the end of the line
 
 <;> → to remove current active highlighting
 
