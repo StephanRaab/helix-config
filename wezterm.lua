@@ -41,6 +41,17 @@
 -- Pull in the wezterm API
 local wezterm = require "wezterm"
 
+-- CTRL-SHIFT-B to toggle opacity for the window
+wezterm.on('toggle-opacity', function(window, pane)
+  local overrides = window:get_config_overrides() or {}
+  if not overrides.window_background_opacity then
+    overrides.window_background_opacity = 0.8
+  else
+    overrides.window_background_opacity = nil
+  end
+  window:set_config_overrides(overrides)
+end)
+
 -- This table will hold the configuration.
 local config = {}
 
@@ -54,7 +65,7 @@ end
 config.color_scheme = "Catppuccin Macchiato"
 config.font =
     wezterm.font("JetBrains Mono NL")
-config.font_size = 16
+config.font_size = 14
 
 -- config.window_decorations = "RESIZE"
 
@@ -83,7 +94,7 @@ config.keys = {
     },
     {
         mods = "LEADER",
-        key = "|",
+        key = "\\",
         action = wezterm.action.SplitHorizontal { domain = "CurrentPaneDomain" }
     },
     {
@@ -130,6 +141,11 @@ config.keys = {
         mods = "LEADER",
         key = "UpArrow",
         action = wezterm.action.AdjustPaneSize { "Up", 5 }
+    },
+    {
+        mods = "CTRL",
+        key = "B",
+        action = wezterm.action.EmitEvent 'toggle-opacity',
     },
 }
 
