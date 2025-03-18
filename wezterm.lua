@@ -64,10 +64,10 @@ end
 -- For example, changing the color scheme:
 config.color_scheme = "Catppuccin Macchiato"
 config.font =
-    wezterm.font("JetBrains Mono NL")
-config.font_size = 14
+    wezterm.font("JetBrains Mono") --JetBrains Mono NL is no ligatures
+config.font_size = 13
 
--- config.window_decorations = "RESIZE"
+-- config.window_decorations = "RESIZE" -- this removes the top of the window, including the minimize/closing buttons
 
 -- tmux
 config.leader = { key = "q", mods = "ALT", timeout_milliseconds = 2000 }
