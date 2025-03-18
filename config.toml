@@ -1,4 +1,5 @@
-theme = "gruvbox"
+# Setting this to match wezterm color scheme
+theme = "catppuccin_macchiato"
 
 [editor]
 line-number = "relative"
