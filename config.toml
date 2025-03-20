@@ -9,6 +9,8 @@ cursorline = true
 rulers = [120]
 # Enable inline hints
 lsp.display-inlay-hints = true
+# Show bufferline (tabs) only when there are multiple buffers open
+bufferline = "multiple"
 
 [editor.cursor-shape]
 insert = "bar"
