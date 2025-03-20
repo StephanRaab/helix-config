@@ -73,6 +73,9 @@
 `</>` - to search
  - `<n>` to go to next instance of searched keyword
 
+`<SPACE-/>` - to run a global search. 
+- `<*>` do this before searching to copy selected word into buffer and have it ready when you do the global search
+
 `<x>` - highlight current line. You can hit it again to grow selection down.
 
 `<SPACE + r>` - rename a symbol
