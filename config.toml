@@ -1,10 +1,46 @@
-# Setting this to match wezterm color scheme
-theme = "catppuccin_macchiato"
+# theme = "catppuccin_macchiato"
+theme = "everforest_dark"
 
 [editor]
 line-number = "relative"
+# Highlight all lines with a cursor
+cursorline = true
+# Show a ruler at column 120
+rulers = [120]
+# Enable inline hints
+lsp.display-inlay-hints = true
 
 [editor.cursor-shape]
 insert = "bar"
 normal = "block"
 select = "underline"
+
+# ----- EXTRAS -----
+
+# use jk as Esc
+[keys.insert]
+j = {k = "normal_mode"}
+
+[keys.normal]
+# bind gw to return key
+"ret" = "goto_word"
+# Shrink a Line Up with Shift x
+A-x = "extend_to_line_bounds"
+X = "select_line_above"
+
+[keys.select]
+A-x = "extend_to_line_bounds"
+X = "select_line_above"
+
+# file picker in current file's directory. For some reason, if you want to have the file picker in the directory of the current buffer, you need to add a keybinding
+[keys.normal."space"]
+o = "file_picker_in_current_buffer_directory"
+
+# Render indentation guides
+[editor.indent-guides]
+character = "╎"
+render = true
+
+# Add the git branch to the status line
+[editor.statusline]
+left = ["mode", "spinner", "version-control", "file-name"]
