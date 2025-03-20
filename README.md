@@ -20,6 +20,12 @@
 
 ## Key bindings to remember
 
+`<:set bufferline always>` - doing this will enable seeing the buffers in the top of the window like tabs
+
+`<gn>` - go to next buffer
+
+`<gp>` - go to previous buffer
+
 `<%>` - select the entire page
 
 `:sh` to run a simple shell command. I used this to run `:sh dotnet run` without quitting and then going back in every single time
