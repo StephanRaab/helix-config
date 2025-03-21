@@ -117,7 +117,7 @@ If you start going down breadcrumb:
 ## Find and replace
 
 1. `<%>` to select the entire document
-2. `</>` to go into search mode
+2. `<s>` to go into search mode
 3. type in your selection, adding `\b` at the end for the regex pattern if it's supposed to be a direct match
 4. hit `<enter>` to search
 5. `<c>` to change with multiple cursors
