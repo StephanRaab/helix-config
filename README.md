@@ -125,3 +125,11 @@ If you start going down breadcrumb:
 3. type in your selection, adding `\b` at the end for the regex pattern if it's supposed to be a direct match
 4. hit `<enter>` to search
 5. `<c>` to change with multiple cursors
+
+## Remove all comments (example)
+1. Select `\\`
+2. `*` to add it to current register
+3. `v` to go into select mode
+4. `n` to select next
+5. `gl` to select until the end of the line
+6. `d` x2 to remove comment and remove blank space
