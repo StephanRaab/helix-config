@@ -20,8 +20,6 @@
 
 ## Key bindings to remember
 
-`<:set bufferline always>` - doing this will enable seeing the buffers in the top of the window like tabs
-
 `<A-.>` - repeat last motion
 
 `<gn>` - go to next buffer
