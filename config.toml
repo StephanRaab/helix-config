@@ -6,25 +6,31 @@ line-number = "relative"
 # Highlight all lines with a cursor
 cursorline = true
 # Show a ruler at column 120
-rulers = [120]
-# Enable inline hints
-lsp.display-inlay-hints = true
+rulers = [80]
 # Show bufferline (tabs) only when there are multiple buffers open
 bufferline = "multiple"
+# Auto save when window loses focus
+auto-save = true
+# Color the mode indicator
+color-modes = true
+
+[editor.lsp]
+# Enable inline hints
+display-inlay-hints = true
+# Show LSP messages in the status line
+display-messages = true
 
 [editor.cursor-shape]
 insert = "bar"
 normal = "block"
 select = "underline"
 
-# ----- EXTRAS -----
-
-# use jk as Esc
+# Use jk as Esc
 [keys.insert]
 j = {k = "normal_mode"}
 
 [keys.normal]
-# bind gw to return key
+# Bind gw to return key
 "ret" = "goto_word"
 # Shrink a Line Up with Shift x
 A-x = "extend_to_line_bounds"
@@ -34,7 +40,7 @@ X = "select_line_above"
 A-x = "extend_to_line_bounds"
 X = "select_line_above"
 
-# file picker in current file's directory. For some reason, if you want to have the file picker in the directory of the current buffer, you need to add a keybinding
+# File picker in current file's directory. For some reason, if you want to have the file picker in the directory of the current buffer, you need to add a keybinding
 [keys.normal."space"]
 o = "file_picker_in_current_buffer_directory"
 
