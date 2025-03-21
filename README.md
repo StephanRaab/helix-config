@@ -20,6 +20,10 @@
 
 ## Key bindings to remember
 
+`<C-u>` - page up
+
+`<C-d>` - page down
+
 `<A-.>` - repeat last motion
 
 `<gn>` - go to next buffer
