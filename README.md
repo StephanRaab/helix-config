@@ -20,6 +20,10 @@
 
 ## Key bindings to remember
 
+`<>>` - indent line
+
+`<<>` - outdent line
+
 `<C-u>` - page up
 
 `<C-d>` - page down
