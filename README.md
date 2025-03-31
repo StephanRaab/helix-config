@@ -131,9 +131,20 @@ If you start going down breadcrumb:
 5. `<c>` to change with multiple cursors
 
 ## Remove all comments (example)
+
 1. Select `\\`
 2. `*` to add it to current register
 3. `v` to go into select mode
 4. `n` to select next
 5. `gl` to select until the end of the line
 6. `d` x2 to remove comment and remove blank space
+
+## On Windows
+
+1. Use Terminal (https://apps.microsoft.com/detail/9n0dx20hk701?hl=en-US&gl=US)
+2. Install Scoop (https://scoop.sh/)
+3. Set up Oh My Posh (https://ohmyposh.dev/)
+4. Install Btop++ (https://github.com/aristocratos/btop)
+
+## Windows Terminal Useful commands
+
