@@ -149,10 +149,17 @@ If you start going down breadcrumb:
 ## Windows Terminal Useful commands
 
 `Alt + Shift + +` - split to the vertically
+
 `Alt + Shift + -` - split pane horizontally
+
 `Alt + Shift + arrowkey` - grow/shrink current active pane
+
 `Alt + arrowkey` - switch active selection
+
 `Ctrl + Shift + w` - close pane
+
 `Ctrl + Shift + P` - open up command palette
+
     - e.g. `toggle pane zoom` - would make the pane go fullscreen
+    
     - `swap panes` - to swap panes
