@@ -141,7 +141,7 @@ If you start going down breadcrumb:
 
 ## On Windows
 
-1. Use Terminal (https://apps.microsoft.com/detail/9n0dx20hk701?hl=en-US&gl=US)
+1. [Use Terminal](https://apps.microsoft.com/detail/9n0dx20hk701?hl=en-US&gl=US)
 2. Install Scoop (https://scoop.sh/)
 3. Set up Oh My Posh (https://ohmyposh.dev/)
 4. Install Btop++ (https://github.com/aristocratos/btop)
